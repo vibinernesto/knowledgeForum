@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<script src="https://cdn.zoomcharts-cloud.com/1/latest/zoomcharts.js" type="text/javascript"></script>
+<script type="text/javascript">
+var ZoomChartsLicense = "ZCS-c49i2wq43: Free ZoomCharts development licence for vib..@..l.com (valid for development and QA only)";
+//var ZoomChartsLicenseKey = "c15dcada2030bcf366e696415745aa66f570c218b1fa43de00"+
+//"b78984d573c775d7fe3a265c37fb22d140a101382c091e3b560d67b166ad7748272b7ccc4e30f"+
+//"d047608ff3a24e49e8b1d9f230694c99da4fcbd716d295ca60df4eef097444be352dbb8a1934d"+
+//"7ed95db38f178c8e7914447cc77e644a26a972e28209c3c8778382009f35bdf145c7170ca28cc"+
+//"4982bd708393af21e3851669a6e8b7d44b229a9b1ee83f136a8c28a2f96aa80cbebf381c50612"+
+//"82101422843097995d264c141d2e8c8bdc3996dd49a359d5c744b4a0772fccc0ac766b6ade48d"+
+//"6c65f86f2368aa03be304cd550dfca0e1edc5be3662651edab425df2d412bb12fa79f56931e06";
+</script>
+<div id="demo"></div>
+<script>
+var t = new TimeChart({
+    container: document.getElementById("demo"),
+    area: { height: 600},
+    data: {
+        preloaded: {
+            values: [
+                [0, 20],
+                [1000, 200],
+                [2000, 300],
+                [3000, 400],
+                [4000, 500]
+            ],
+            unit: 's'
+        },
+        timestampInSeconds: true
+    }
+});
+</script>
+</body>
+</html>

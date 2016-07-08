@@ -1,0 +1,74 @@
+#pageHeader{
+	background-color:#00467E;/*#208AAD*//*#00467E*//*#244688*/
+	color:white;
+	/*margin:0px 0px;*/
+	text-align:center;
+	padding:10px;
+	font-family:candara;
+	font-size:250%;
+}
+
+#navRegistration{
+	background-color:#9FC9EB;/*#eeeeee*/ /*#A6CCEB*/ /*#9FC9EB*/ /*#B9D7EB*/
+	color:black;
+	height:500px;
+	font-family:Georgia;
+	width:250px;
+	float:left;
+	padding:20px;
+}
+
+#section{
+	background-color:#FFFFFF;/*#244688 ; #C0C5DE*/ /*#A6CCEB*/
+	font-family:Serif;
+	font-color:blue;
+	padding:30px;
+	width:350px;/*MODIFIED WIDTH :1279px;*//*Original width: 350px*/
+	float:left;
+}
+#section1{
+	background-color:#FFFFFF;/*#244688 ; #C0C5DE*/ /*#A6CCEB*/
+	font-family:Serif;
+	font-color:blue;
+	padding:30px;
+	width:350px;/*MODIFIED WIDTH :1279px;*//*Original width: 350px*/
+	float:left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0096DE;
+}
+/*ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}*/
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #00467E;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:#AACEEA;
+}
+
+#footer {
+    background-color:#244688;/*#208AAD*/ /*#A6CCEB*/
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
